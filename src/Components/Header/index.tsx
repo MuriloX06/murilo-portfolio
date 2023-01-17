@@ -6,10 +6,10 @@ function Header() {
     <Container>
       <ul>
         <NavLink title="Início" path="/" />
-        <NavLink title="Projetos" path="/projetos" includes />
+        <NavLink title="Projetos" path="/projects" includes />
       </ul>
     </Container>
-  );
+  )
 }
 
 export default Header;
