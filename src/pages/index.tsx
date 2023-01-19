@@ -7,7 +7,6 @@ const Home: React.FC = () => {
   return (
      <HomeContainer>
       <Header />
-      <h1>Danielly<h1>
       <main className="container">
         <HomeHero />
       </main>
