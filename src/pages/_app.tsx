@@ -22,10 +22,11 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
       <Analytics />
       <GlobalStyle />
       <NextNProgress
+        options={{ showSpinner: false }}
         color={lighten(0.2, theme.primary)}
         startPosition={0.3}
         stopDelayMs={200}
-        height={3}
+        height={2}
         showOnShallow={true} />
       <Component {...pageProps} />
     </ThemeProvider>

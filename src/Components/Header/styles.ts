@@ -25,6 +25,8 @@ export const NavLinkContainer = styled.li<NavLinkProps>`
     color: ${props =>
       props.isActive ? props.theme.primary : props.theme.textHighlight};
     transition: 0.5s;
+    outline: none;
+
     &:hover {
       color: ${props =>
         props.isActive
