@@ -10,5 +10,9 @@ export const HomeContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 8rem;
+
+    >h1{
+      color: ${({ theme }) => theme.primary};
+    }
   }
 `
