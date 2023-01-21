@@ -14,7 +14,6 @@ const Projects: React.FC = () => {
         <Header />
         <main className="container">
           <h1>Página em desenvolvimento...</h1>
-          <h2>Hello Word!</h2>
         </main>
       </HomeContainer>
     </>
