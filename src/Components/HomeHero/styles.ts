@@ -11,6 +11,7 @@ export const Container = styled.div`
   > img {
     width: 40rem;
     flex: 1;
+    transition: 2s;
   }
 
   > div{
@@ -47,12 +48,14 @@ export const TextContainer = styled.section`
 
   h1{
     font-size: 8rem;
+    transition: 2s;
     color: ${({ theme }) => theme.primary};
   }
 
   h2{
     font-size: 3rem;
     font-weight: 400;
+    transition: 2s;
     color: ${({ theme }) => theme.secondary};
   }
 
@@ -92,7 +95,7 @@ export const CodeItem = styled.pre`
   color: #fff;
   width: 24rem;
   align-self: flex-start;
-  transition: 1s;
+  transition: 2s;
 
   @media (max-width: 1450px) {
     width: 18rem;

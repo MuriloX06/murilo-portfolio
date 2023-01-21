@@ -4,17 +4,17 @@ import { Fade } from 'react-reveal'
 export default function HomeHero() {
   return (
     <Container>
-      <Fade duration={4000} delay={1800}>
+      <Fade duration={2000} delay={1000}>
         <img src='/pessoa.webp' alt="Foto do Murilo" />
       </Fade>
       <div>
-        <Fade duration={3000} delay={500}>
+        <Fade duration={2000}>
           <TextContainer>
             <h1>Olá</h1>
             <h2>Me chamo Murilo</h2>
           </TextContainer>
         </Fade>
-        <Fade duration={3000} delay={1000}>
+        <Fade duration={3000} delay={400}>
           <InfosContainer>
             <CodeItem>
               <span className='comment'>//Minha apresentação</span>
