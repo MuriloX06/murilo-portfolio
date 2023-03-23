@@ -14,5 +14,9 @@ export const HomeContainer = styled.div`
     >h1{
       color: ${({ theme }) => theme.primary};
     }
+
+   >h2{
+      color: ${({ theme }) => theme.primary};
+    }
   }
 `
