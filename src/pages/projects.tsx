@@ -13,10 +13,7 @@ const Projects: React.FC = () => {
       <HomeContainer>
         <Header />
         <main className="container">
-          <h1>Página em desenvolvimento...</h1>
-          <h1>Olá Mundo!</h1>
-          <p>Tudo bem? Sou eu, Murilo!</p>
-          <p>ehjvdhvhdvwjhd</p>
+          <h1>Guilherme Oliveira - Viado</h1>
         </main>
       </HomeContainer>
     </>
