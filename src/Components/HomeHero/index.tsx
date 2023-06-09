@@ -11,7 +11,7 @@ export default function HomeHero() {
         <Fade duration={2000}>
           <TextContainer>
             <h1>Olá</h1>
-            <h2>Me chamo Murilo</h2>
+            <h2>Me chamo Guilherme</h2>
           </TextContainer>
         </Fade>
         <Fade duration={3000} delay={400}>
@@ -20,20 +20,20 @@ export default function HomeHero() {
               <span className='comment'>//Minha apresentação</span>
               <span className='purple'>Infos</span> {'\u007B'}
               <div>
-                Nome: <span className='blue'>Murilo,</span>
+                Nome: <span className='blue'>Luis,</span>
               </div>
               <div>
-                Sobrenome: <span className='blue'>Abreu Castelo Branco</span>
+                Sobrenome: <span className='blue'>Oliveira Pinto</span>
               </div>
               {'\u007D'}
             </CodeItem>
             <CodeItem>
               <span className='purple'>Cargo</span> {'\u007B'}
               <div>
-                Função: <span className='blue'>Dev Front-End,</span>
+                Função: <span className='blue'>Hacker,</span>
               </div>
               <div>
-                Empresa: <span className='blue'>Fire Base</span>
+                Empresa: <span className='blue'>I.A.</span>
               </div>
               {'\u007D'}
             </CodeItem>
