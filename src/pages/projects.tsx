@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
       <HomeContainer>
         <Header />
         <main className="container">
-          <h1>Guilherme Oliveira - Viado</h1>
+          <h1>Guilherme Oliveira - Bisexual</h1>
         </main>
       </HomeContainer>
     </>
