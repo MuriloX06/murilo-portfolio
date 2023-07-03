@@ -15,7 +15,7 @@ const Projects: React.FC = () => {
         <Header />
         <main className="container">
           <HomeHeroProjects
-          title="Informações do site"
+          title="Informações do site - Teste"
           msg="Página em desenvolvimento"/>
         </main>
       </HomeContainer>
