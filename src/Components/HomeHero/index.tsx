@@ -5,7 +5,7 @@ export default function HomeHero() {
   return (
     <Container>
       <Fade duration={2000} delay={1000}>
-        <img src='/pessoa.webp' alt="Foto do Murilo" />
+        <img src='/pessoa.webp' alt="Foto de uma pessoa" />
       </Fade>
       <div>
         <Fade duration={2000}>

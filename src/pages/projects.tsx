@@ -16,7 +16,14 @@ const Projects: React.FC = () => {
         <main className="container">
           <HomeHeroProjects
           title="Informações do site"
-          msg="Página em desenvolvimento. Teste"/>
+          msg="Página em desenvolvimento."/>
+        </main>
+      </HomeContainer>
+      <HomeContainer>
+        <main className="container">
+          <HomeHeroProjects
+          title="Testando"
+          msg="Murilo"/>
         </main>
       </HomeContainer>
     </>
