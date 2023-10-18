@@ -1,11 +1,11 @@
 import React from 'react'
-import {HomeContainer} from '../styles/HomeStyles'
+import { HomeContainer } from '../styles/HomeStyles'
 import Header from '../Components/Header'
 import HomeHero from '../Components/HomeHero'
 
 const Home: React.FC = () => {
   return (
-     <HomeContainer>
+    <HomeContainer>
       <Header />
       <main className="container">
         <HomeHero />
