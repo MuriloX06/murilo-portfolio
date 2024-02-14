@@ -7,24 +7,18 @@ import GlobalStyle from '../styles/global'
 import theme from '../styles/theme'
 import NextNProgress from 'nextjs-progressbar'
 import { lighten } from 'polished'
-import { ShortcutHandler } from '../Components/ShortcutHandler/ShortcurHandler'
 
 
 const App: React.FC<AppProps> = ({ Component, pageProps }) => {
-  const salvar = () => {
-    alert('"Ctrl + s" pressionados com sucesso!')
-  }
-
   return (
     <ThemeProvider theme={theme}>
-      <Head>
+       <Head>
         <link rel="shortcut icon" href="favicon.png" type="image/png" />
         <link rel="apple-touch-icon" href="favicon.png" type="image/png" />
         <meta name="description" content="Um simples projeto para o meu Portfólio." />
         <title>Portfólio | Murilo</title>
       </Head>
 
-      <ShortcutHandler keyCode={83} action={salvar} ctrlKey />
       <Analytics />
       <GlobalStyle />
       <NextNProgress
