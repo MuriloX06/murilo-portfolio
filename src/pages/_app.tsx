@@ -13,8 +13,8 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <ThemeProvider theme={theme}>
        <Head>
-        <link rel="shortcut icon" href="favicon.png" type="image/png" />
-        <link rel="apple-touch-icon" href="favicon.png" type="image/png" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="favicon.icon" type="image/x-icon" />
         <meta name="description" content="Um simples projeto para o meu Portfólio." />
         <title>Portfólio | Murilo</title>
       </Head>

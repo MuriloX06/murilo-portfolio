@@ -2,7 +2,6 @@ import React from 'react'
 import Head from 'next/head'
 import {HomeContainer} from '../styles/HomeStyles'
 import Header from '../Components/Header'
-import HomeHeroProjects from '../Components/HomeHeroProjects'
 
 const Projects: React.FC = () => {
   return (
@@ -14,9 +13,7 @@ const Projects: React.FC = () => {
       <HomeContainer>
         <Header />
         <main className="container">
-          <HomeHeroProjects
-          title="Informações do site"
-          msg="Página em desenvolvimento."/>
+          <h1>Página em desenvolvimento...</h1>
         </main>
       </HomeContainer>
     </>
